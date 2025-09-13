@@ -1,0 +1,35 @@
+{% set current_lang = config.default_language %}
+{% if page %}
+  {% set current_lang = page.lang %}
+{% elif section %}
+  {% set current_lang = section.lang %}
+{% endif %}
+{% if not current_url %}
+{% set current_url = "/" %}
+{% endif %}
+<img src="{{ get_url(path='graphics/logo.png', trailing_slash=false) | safe }}" alt="A shield-shaped emblem with a dark swirling vortex in the center, surrounded by jagged, purple lightning-like cracks. Above the shield, large metallic letters spell out "VOID HAVEN". The overall color scheme is black and dark purple, giving it a mysterious and ominous appearance.">
+<nav id="nav-bar">
+<br/>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<br/>
+{% if config.extra.header_nav %}
+    {% for nav_item in config.extra.header_nav %}
+      <br/>
+      <a href="{{ nav_item.url }}" {% if nav_item.url == current_url %}class="active"{% endif %}>
+        {% set language_key = 'name_' ~ current_lang %}
+        {{ nav_item[language_key] }}
+      </a>{% if not loop.last %} |{% endif %}
+    {% endfor %}
+{% endif %}
+</nav>
+<div>
+        <input type="checkbox" id="theme-toggle" class="sr-only">
+    <label for="theme-toggle" id="theme-toggle-label">
+            <svg id="theme-icon" class="icons" role="img" aria-label = "Toggle Dark Mode">
+    <use href="{{ get_url(path='/icons.svg#lightMode', trailing_slash=false) | safe }}"></use>
+    </svg>
+    </label>
+    <audio id="theme-sound">
+        <source src="{{ get_url(path='click.ogg', trailing_slash=false) | safe }}" type="audio/ogg">
+    </audio>
+</div>
