@@ -8,21 +8,8 @@ Void Haven FM is more than just a station — it’s a space where music feels p
 ---
 
 ## Schedule
-Stay tuned for our rotating shows and live sessions:
 
-- **Morning Flow (8 AM – 12 PM)**  
-  Easygoing tracks to start your day with good energy.  
-
-- **The Midday Mix (12 PM – 5 PM)**  
-  A blend of favorites across genres to keep your day moving.  
-
-- **Haven Nights (5 PM – 10 PM)**  
-  From chill to heavy, a mix of vibes for your evening.  
-
-- **Late in the Void (10 PM – 2 AM)**  
-  Experimental sounds, deep cuts, and unexpected finds.  
-
-[See Full Schedule Soon]
+See  Schedule Soon.
 
 ---
 
