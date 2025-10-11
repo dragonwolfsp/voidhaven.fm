@@ -2,13 +2,6 @@
 title = "Voidhaven fm"
 +++
 
-# Void Haven FM
-*Where the playlist feels like home.*
-
-[Listen Live]
-
----
-
 ## About Us
 Void Haven FM is more than just a station — it’s a space where music feels personal. From indie to rock, electronic to acoustic, and everything in between, we bring you a playlist that feels like home. We’re here to share stories, beats, and voices that connect us all.
 
@@ -40,4 +33,4 @@ Void Haven FM exists to create a refuge through music. We believe playlists can 
 
 ## Contact
 Have a request, idea, or want to get involved?  
-Reach out soon at: **music@voidhaven.fm**
+Reach out  at: **[vhradio2@gmail.com](mailto:vhradio2@gmail.com)**
