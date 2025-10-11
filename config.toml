@@ -20,6 +20,7 @@ highlight_code = true
 twitter_card = false
 header_nav = [
     { url = "/", name_en = "home" },
+    { url = "//stream.voidhaven.fm/public/voidhaven", name_en = "listen live" },
 ]
 footer_content_license = "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
 footer_content_license_link = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
